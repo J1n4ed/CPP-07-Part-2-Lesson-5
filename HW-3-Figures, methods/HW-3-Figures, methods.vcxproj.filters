@@ -13,5 +13,32 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\figure_3">
+      <UniqueIdentifier>{fea804ff-e502-45b1-aa25-3c97ba5a6450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\figure_3">
+      <UniqueIdentifier>{a481d7b3-2708-46e1-b572-6504a43d6711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main fuction">
+      <UniqueIdentifier>{ed451930-809c-4c8d-971d-1375698f1b94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\main fuction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\figures_3.cpp">
+      <Filter>Source Files\figure_3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\figures_3.h">
+      <Filter>Header Files\figure_3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
